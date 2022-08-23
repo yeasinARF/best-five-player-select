@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500&display=swap');
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box ;
+}
+body{
+    background-color: rgb(25, 25, 25);
+    color:white;
+    font-family: 'Manrope', sans-serif;
+}
+.logo{
+    width:70px;
+    height:70px;
+}
+.title-text{
+    font-family: 'Berkshire Swash', cursive;
+    color: #FF5E19;
+}
+
+.card{
+    background-color: black;
+    border: 1px solid #434343;
+}
+.card img{
+    width:100%;
+    height:150px;
+}
+.card-body{
+    text-align: center;
+}
+.card .card-body .card-title{
+    font-size:0.9rem;
+}
+.button{
+    width:170px;
+    height:30px;
+    font-size:0.7rem;
+    line-height:15px;
+    background: rgba(1, 81, 150, 1);
+    color: #FFFFFF;
+    text-transform: uppercase;
+
+}
+.budget-calculation{
+    font-size:0.8rem;
+    color:gray;
+}
+.budget-calculation input{
+    font-size:0.7rem;
+    padding-left:5px;
+    padding-right:5px;
+    font-weight: bold;
+    margin-left:5px;
+}
+.footer-text{
+    font-size:0.7rem;
+}
+@media (max-width:991px) and (min-width:768px) {
+
+    .button{
+        width:130px;
+
+    }
+}

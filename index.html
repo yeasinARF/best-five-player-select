@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Player Selection</title>
+    <!-- bootstrap css  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <!-- css link  -->
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <!-- nav section start  -->
+      <nav>
+        <div class="container-fluid pt-3 pb-2">
+          <a class="navbar-brand " href="#">
+              <img class="logo" src="image/logo.png" alt="">
+          </a>
+        </div>
+      </nav>
+    <!-- nav section end  -->
+    <!-- header section start -->
+    <header>
+      <div class="container-fluid text-center  ">
+          <h1 class="title-text">Select Your Desired Player</h1>
+          <small class="mini-title">In,this website here you can choose your<br> best five football player.</small>
+      </div>
+
+    </header>
+    <!-- headre section end  -->
+
+    <!-- main section start  -->
+      <main class="my-5 pt-5">
+        <section class="container card-section-one pt-5">
+            <div class="row g-2">
+              <div class="col-12 col-md-3 col-lg-3 col-xl-3 col-xxl-3">
+                <div class="card" >
+                  <img src="image/neymar.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title" id="playerTitleOne">Neymar Jr</h5>
+                    
+                    <button class="button" id="btn-1">
+                      Select
+
+                    </button>
+                  </div>
+                </div>
+
+              </div>
+              <div class="col-12 col-md-3 col-lg-3 col-xl-3 col-xxl-3">
+                <div class="card">
+                  <img src="image/mbappe.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title" id="playerTitleTwo">Kylian Mbappé</h5>
+                    
+                    <button class="button" id="btn-2">
+                      Select
+
+                    </button>
+                  </div>
+                </div>
+
+              </div>
+              <div class="col-12 col-md-3 col-lg-3 col-xl-3 col-xxl-3">
+                <div class="card" >
+                  <img src="image/marco.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title"id="playerTitleThree">Marco Verratti</h5>
+                    <button class="button" id="btn-3">
+                      Select
+
+                    </button>
+                  </div>
+                </div>
+
+              </div>
+              <div class="col-12 col-md-3 col-lg-3 col-xl-3 col-xxl-3">
+                <div class="card border-0">
+                  <div class="card-body">
+                    <h1 class="card-title">Selected-V</h1>
+                    <ol class="text-start" id="orderd-list">
+                        
+                    </ol>
+                  </div>
+                  
+                  
+                </div>
+
+              </div>
+            </div>
+        </section>
+        <section class="container card-section-two my-3">
+          <div class="row g-2">
+            <div class="col-12 col-md-3 col-lg-3 col-xl-3 col-xxl-3">
+              <div class="card" >
+                <img src="image/sergio.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title"id="playerTitleFour">Sergio Ramos</h5>
+                  <button class="button" id="btn-4">
+                    Select
+
+                  </button>
+                  
+                </div>
+              </div>
+
+            </div>
+            <div class="col-12 col-md-3 col-lg-3 col-xl-3 col-xxl-3">
+              <div class="card" >
+                <img src="image/vitinha.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title"id="playerTitleFive">Vítor Machado</h5>
+                  
+                  <button class="button" id="btn-5">
+                    Select
+
+                  </button>
+                  
+                </div>
+              </div>
+
+            </div>
+            <div class="col-12 col-md-3 col-lg-3 col-xl-3 col-xxl-3">
+              <div class="card" >
+                <img src="image/achraf.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title"id="playerTitleSix">Achraf Hakimi</h5>
+                  
+                  <button class="button"id="btn-6">
+                    Select
+
+                  </button>
+                  
+                </div>
+              </div>
+
+            </div>
+            <div class="col-12 col-md-3 col-lg-3 col-xl-3 col-xxl-3">
+              <div class="card border-0" >
+                
+                <div class="card-body">
+                  <h5 class="card-title">Budget</h5>
+                  <div class="py-2 budget-calculation">
+                    <span>Per Player</span>
+                    <input class="w-50" type="text" id="input-field"><br>
+                    <button class="button my-3" id="calculate">
+                      Calculate
+  
+                    </button>
+                    <div class="d-flex justify-content-between px-2">
+                      <p>Player Expenses</p>
+                      <p>$ <span id="player-expense"></span></p>
+                    </div>
+
+                  </div>
+                  <div class="py-2 budget-calculation">
+                    <span>Manager</span>
+                    <input type="text" style="width:50%;" id="manager-input-field"><br>
+                    <span class="pe-3">Coach</span>
+                    <input class="my-2 w-50" type="text" id="coach-input-field" ><br>
+                    <button class="button my-3" id="total-calculation">
+                      Calculate Total
+  
+                    </button>
+                    <div class="d-flex justify-content-between px-2">
+                      <p>Total</p>
+                      <p>$ <span id="total-cost"></span></p>
+                    </div>
+                  </div>
+                  
+                </div>
+              </div>
+
+            </div>
+          </div>
+      </section>
+        
+      </main>
+    <!-- main section end  -->
+
+    <!-- divider  -->
+    <hr>
+
+    <footer class="text-center pb-3">
+      <small class="footer-text">Copyright @ 2022 All Rights Reserved.</small>
+   </footer>
+    
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,21 @@
+1) Ekta heading thakte hobe nijer motow kore
+2) title dite hobe
+3) card minimum 6 ta unique pic hobe
+
+js
+
+1) card select button e click korle pashe e add hobe list e jotow select totow add
+2)calculation per player e 1000 kore list e jotow player oita multiple kore then baki ka
+j
+
+list number count: link:
+https://stackoverflow.com/questions/20040825/check-how-many-li-there-are-in-a-ul-with-
+javascript
+
+bonus:
+
+1)ekbar add korle oi button hide
+2)max 5 ta player add korle alert msg
+3) 6 commit
+4) at least ekta function use korte hobe
+5) variable function name meaningful
