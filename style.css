@@ -54,6 +54,9 @@ body{
     font-weight: bold;
     margin-left:5px;
 }
+.totalCost{
+    color: #FF5E19;
+}
 .footer-text{
     font-size:0.7rem;
 }
